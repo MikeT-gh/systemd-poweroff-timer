@@ -1,0 +1,6 @@
+[Unit]
+Description = Poweroff machine at Midnight
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/poweroff
